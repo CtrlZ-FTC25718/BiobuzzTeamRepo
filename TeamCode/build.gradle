@@ -26,4 +26,9 @@ android {
 
 dependencies {
     implementation project(':FtcRobotController')
+    // implementation 'org.ftclib.ftclib:core:2.1.1'
+    implementation "org.solverslib:core:0.3.5" // core
+    implementation "org.solverslib:pedroPathing:0.3.5" // pedroPathing
+    // the following is optional if you want vision
+    implementation 'org.ftclib.ftclib:vision:2.1.0'
 }
